@@ -23,9 +23,9 @@ class MyClient(discord.Client):
         elif 'help' in message.content:
             await message.channel.send('Type: meme, hello, bye, Susana, help')
         elif '#Own name' in message.content:
-            await message.channel.send('Susana is the best!')
+            await message.channel.send('(Own name) is the best!')
         elif '#Own name without first letter in caps' in message.content:
-            await message.channel.send('Susana is the best!')
+            await message.channel.send('(Own name) is the best!')
         else:
             await message.channel.send('I do not understand you!')
 
