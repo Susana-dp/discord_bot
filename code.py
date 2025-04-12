@@ -26,8 +26,6 @@ class MyClient(discord.Client):
             await message.channel.send('(Own name) is the best!')
         elif '#Own name without first letter in caps' in message.content:
             await message.channel.send('(Own name) is the best!')
-        else:
-            await message.channel.send('I do not understand you!')
 
 
 intents = discord.Intents.default()
